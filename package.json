@@ -1,0 +1,33 @@
+{
+  "name": "ranking-api",
+  "version": "0.0.0",
+  "main": "app/server.coffee",
+  "description": "RESTful API for a Player Ranking example.",
+  "homepage": "http://eridlabs.com",
+  "bugs": "https://github.com/erid/ranking-api/issues",
+  "author": {
+    "name": "Erid",
+    "email": "erid14@gmail.com",
+    "url": "eridlabs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erid/ranking-api"
+  },
+  "private": "true",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "restify": "~2.6.0",
+    "coffee-script": "~1.6.3",
+    "underscore": "~1.5.2",
+    "mongoose": "~3.8.1",
+    "nodemon": "~0.7.10"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  }
+}
